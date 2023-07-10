@@ -5,14 +5,14 @@
 class Donut < Formula
   desc "Tiny dotfiles management tool written in Go."
   homepage ""
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
   depends_on :macos
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gleamsoda/donut/releases/download/v0.0.3/donut_Darwin_arm64.tar.gz"
-      sha256 "be7590eaef75927e782f5698400bcc6dfc94112cb27f4f4c26b0fd90302cbd7b"
+      url "https://github.com/gleamsoda/donut/releases/download/v0.0.4/donut_Darwin_arm64.tar.gz"
+      sha256 "8f68143fda2f80a25b1d8ed3ac4ed2b77c1407ec817a5c58cb5cf51e422c1591"
 
       def install
         bin.install "donut"
