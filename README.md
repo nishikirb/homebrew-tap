@@ -1,3 +1,3 @@
 # homebrew-tap
 
-Homebrew Formulae by @gleamsoda
+Homebrew Formulae by @nishikirb
